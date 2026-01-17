@@ -14,3 +14,6 @@
 - Fork repo
 - Làm bài
 - Gửi Pull Request
+
+##Các bài gồm:
+- bai_tap_python_doi_song.txt, đáp án ở dap_an_bai_tap_python_doi_song.txt
