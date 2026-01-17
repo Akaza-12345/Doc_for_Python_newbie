@@ -1,0 +1,153 @@
+ĐÁP ÁN GỢI Ý – BỘ BÀI TẬP PYTHON TÍNH TOÁN ĐỜI SỐNG
+(Lưu ý: Đây là đáp án tham khảo, có thể viết theo cách khác)
+
+==============================
+BÀI 1. TÍNH TIỀN ĐIỆN
+==============================
+n = int(input("Nhap so kWh: "))
+tien = 0
+
+if n <= 50:
+    tien = n * 1678
+elif n <= 100:
+    tien = 50*1678 + (n-50)*1734
+elif n <= 200:
+    tien = 50*1678 + 50*1734 + (n-100)*2014
+else:
+    tien = 50*1678 + 50*1734 + 100*2014 + (n-200)*2536
+
+print("Tien dien:", tien)
+
+--------------------------------
+
+==============================
+BÀI 2. CHIA TIỀN ĂN NHÓM
+==============================
+T = float(input("Tong hoa don: "))
+n = int(input("So nguoi: "))
+
+tong = T + T*0.10
+tong = tong + tong*0.08
+
+print("Tong tien:", tong)
+print("Moi nguoi tra:", tong/n)
+
+--------------------------------
+
+==============================
+BÀI 3. XE CHAY
+==============================
+v = float(input("Van toc: "))
+t = float(input("Thoi gian: "))
+x = float(input("Lit/100km: "))
+
+S = v * t
+xang = S * x / 100
+
+print("Quang duong:", S)
+print("Xang tieu thu:", xang)
+
+--------------------------------
+
+==============================
+BÀI 4. GOI CUOC
+==============================
+p = int(input("So phut: "))
+
+if p <= 50:
+    tien = 0
+else:
+    tien = (p - 50) * 600
+
+tien = tien + tien*0.10
+print("Tien cuoc:", tien)
+
+--------------------------------
+
+==============================
+BÀI 5. BMI
+==============================
+can_nang = float(input("Can nang: "))
+chieu_cao = float(input("Chieu cao: "))
+
+bmi = can_nang / (chieu_cao ** 2)
+print("BMI:", bmi)
+
+if bmi < 18.5:
+    print("Gay")
+elif bmi < 25:
+    print("Binh thuong")
+elif bmi < 30:
+    print("Thua can")
+else:
+    print("Beo phi")
+
+--------------------------------
+
+==============================
+BÀI 6. DIEM HOC SINH
+==============================
+toan = float(input("Toan: "))
+van = float(input("Van: "))
+anh = float(input("Anh: "))
+
+tb = (2*toan + van + anh) / 4
+print("Diem TB:", tb)
+
+if tb >= 8:
+    print("Gioi")
+elif tb >= 6.5:
+    print("Kha")
+elif tb >= 5:
+    print("Trung binh")
+else:
+    print("Yeu")
+
+--------------------------------
+
+==============================
+BÀI 7. LUONG
+==============================
+L = float(input("Luong/gio: "))
+h = float(input("So gio: "))
+
+if h <= 8:
+    tien = h * L
+else:
+    tien = 8*L + (h-8)*L*1.5
+
+print("Luong:", tien)
+
+--------------------------------
+
+==============================
+BÀI 8. TIET KIEM
+==============================
+P = float(input("So tien gui: "))
+r = float(input("Lai suat (%): "))
+n = int(input("So nam: "))
+
+A = P * (1 + r/100) ** n
+print("So tien sau", n, "nam:", A)
+
+--------------------------------
+
+==============================
+BÀI 9. TIEN NUOC
+==============================
+m = float(input("So m3: "))
+tien = 0
+
+if m <= 10:
+    tien = m * 5973
+elif m <= 20:
+    tien = 10*5973 + (m-10)*7052
+else:
+    tien = 10*5973 + 10*7052 + (m-20)*8699
+
+tien = tien + tien*0.05
+print("Tien nuoc:", tien)
+
+--------------------------------
+
+HẾT

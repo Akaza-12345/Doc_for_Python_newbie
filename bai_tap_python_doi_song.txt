@@ -1,0 +1,160 @@
+BỘ BÀI TẬP PYTHON – TÍNH TOÁN GẮN LIỀN ĐỜI SỐNG
+(Dùng để ôn tập trước khi đến lớp)
+
+==============================
+BÀI 1. TÍNH TIỀN ĐIỆN GIA ĐÌNH
+==============================
+Nhà bạn dùng n kWh điện trong một tháng.
+
+Giá điện:
+- 0 – 50 kWh: 1 678 đ/kWh
+- 51 – 100 kWh: 1 734 đ/kWh
+- 101 – 200 kWh: 2 014 đ/kWh
+- Trên 200 kWh: 2 536 đ/kWh
+
+Yêu cầu:
+- Nhập số kWh tiêu thụ
+- Tính tổng tiền điện phải trả
+
+--------------------------------
+
+==============================
+BÀI 2. CHIA TIỀN ĂN NHÓM
+==============================
+Nhóm bạn đi ăn:
+- Tổng hóa đơn ban đầu: T đồng
+- Số người: n
+
+Nhà hàng thu:
+- 10% phí phục vụ
+- 8% VAT
+
+Công thức:
+Tổng tiền = T + T*10% + (T + T*10%)*8%
+
+Yêu cầu:
+- Tính tổng tiền sau thuế
+- Tính số tiền mỗi người phải trả
+
+--------------------------------
+
+==============================
+BÀI 3. TÍNH QUÃNG ĐƯỜNG XE CHẠY
+==============================
+Xe chạy với:
+- Vận tốc v (km/h)
+- Thời gian t (giờ)
+- Mức tiêu thụ x (lít / 100 km)
+
+Công thức:
+- Quãng đường: S = v * t
+- Xăng tiêu thụ = S * x / 100
+
+Yêu cầu:
+- Tính quãng đường đi được
+- Tính lượng xăng tiêu thụ
+
+--------------------------------
+
+==============================
+BÀI 4. GÓI CƯỚC ĐIỆN THOẠI
+==============================
+Quy định:
+- 50 phút đầu miễn phí
+- Từ phút 51 trở đi: 600 đ/phút
+- VAT: 10%
+
+Yêu cầu:
+- Nhập số phút gọi
+- Tính tổng tiền phải trả
+
+--------------------------------
+
+==============================
+BÀI 5. TÍNH BMI – SỨC KHỎE
+==============================
+Nhập:
+- Cân nặng (kg)
+- Chiều cao (m)
+
+Công thức:
+BMI = cân nặng / (chiều cao ^ 2)
+
+Phân loại:
+- BMI < 18.5 : Gầy
+- 18.5 – 24.9 : Bình thường
+- 25 – 29.9 : Thừa cân
+- >= 30 : Béo phì
+
+Yêu cầu:
+- Tính BMI
+- Đưa ra đánh giá
+
+--------------------------------
+
+==============================
+BÀI 6. ĐIỂM HỌC SINH HỆ SỐ
+==============================
+Nhập:
+- Toán (hệ số 2)
+- Văn (hệ số 1)
+- Anh (hệ số 1)
+
+Công thức:
+Điểm TB = (2*Toán + Văn + Anh) / 4
+
+Xếp loại:
+- >= 8 : Giỏi
+- >= 6.5 : Khá
+- >= 5 : Trung bình
+- < 5 : Yếu
+
+--------------------------------
+
+==============================
+BÀI 7. TÍNH LƯƠNG LÀM THÊM
+==============================
+Nhân viên có:
+- Lương cơ bản: L đồng/giờ
+- Làm thêm ngoài giờ (sau 8h): hệ số 1.5
+
+Yêu cầu:
+- Nhập số giờ làm trong ngày
+- Tính tổng lương nhận được
+
+--------------------------------
+
+==============================
+BÀI 8. GỬI TIẾT KIỆM NGÂN HÀNG
+==============================
+Gửi:
+- Số tiền P đồng
+- Lãi suất r %/năm
+- Thời gian n năm
+
+Ngân hàng tính lãi kép.
+
+Công thức:
+A = P * (1 + r/100) ^ n
+
+Yêu cầu:
+- Tính số tiền nhận được sau n năm
+
+--------------------------------
+
+==============================
+BÀI 9. TIỀN NƯỚC SINH HOẠT
+==============================
+Giá nước:
+- 0 – 10 m³: 5 973 đ/m³
+- 11 – 20 m³: 7 052 đ/m³
+- Trên 20 m³: 8 699 đ/m³
+- VAT: 5%
+
+Yêu cầu:
+- Nhập số m³ nước
+- Tính tổng tiền phải trả
+
+--------------------------------
+
+HẾT
